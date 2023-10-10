@@ -1,0 +1,59 @@
+i{
+    color: rgb(18, 195, 18);
+}
+h1{
+    border: 2px solid blueviolet;
+}
+h2{
+    border: 2px solid royalblue;
+    display: inline-block;
+    height: 50px;
+}
+.width{
+    width: 500px;
+    margin: auto;
+    border: 2px solid red;
+}
+.max_width{
+    width: 500px;
+    margin: auto;
+    border: 2px solid rgb(9, 255, 0);
+}
+.with{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    border: 2px solid coral;
+}
+.box{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    left: 100px;
+}
+.sub_box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin: auto;
+    background-color:  greenyellow;
+    border-radius: 50%;
+}
+.sticky{
+    position: sticky;
+    top: 0%;
+    border: 2px solid green;
+    background-color: rgb(119, 177, 229);
+}
+.fixed{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    border: 2px solid royalblue;
+    background-color: darkgrey;
+}
